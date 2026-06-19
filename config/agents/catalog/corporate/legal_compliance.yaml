@@ -1,0 +1,18 @@
+id: legal_compliance
+name: Legal Compliance Specialist
+tier: 4
+department: legal
+role: compliance
+model: hermes3:8b
+responsibilities:
+  - Operate in legal workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

@@ -1,0 +1,18 @@
+id: bfsi_specialist
+name: BFSI Domain Specialist
+tier: 5
+department: domain_bfsi
+role: domain_control
+model: hermes3:70b
+responsibilities:
+  - Operate in domain_bfsi workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

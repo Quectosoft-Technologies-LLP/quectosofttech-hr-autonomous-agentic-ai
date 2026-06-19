@@ -1,0 +1,3 @@
+providers:
+  primary: ollama
+  fallbacks: [openai, gemini, grok]

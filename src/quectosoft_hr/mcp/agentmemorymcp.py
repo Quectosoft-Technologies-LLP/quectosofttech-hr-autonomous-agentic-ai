@@ -1,0 +1,2 @@
+class AgentmemoryMcp:
+    name = "agentmemorymcp"

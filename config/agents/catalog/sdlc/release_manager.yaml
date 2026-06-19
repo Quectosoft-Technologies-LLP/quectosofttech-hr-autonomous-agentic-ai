@@ -1,0 +1,18 @@
+id: release_manager
+name: Release Manager
+tier: 4
+department: delivery
+role: release
+model: hermes3:8b
+responsibilities:
+  - Operate in delivery workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

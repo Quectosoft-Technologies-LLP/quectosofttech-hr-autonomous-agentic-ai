@@ -1,0 +1,18 @@
+id: healthcare_specialist
+name: Healthcare Domain Specialist
+tier: 5
+department: domain_healthcare
+role: domain_control
+model: hermes3:70b
+responsibilities:
+  - Operate in domain_healthcare workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

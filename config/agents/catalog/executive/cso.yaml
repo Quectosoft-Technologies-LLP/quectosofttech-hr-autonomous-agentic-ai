@@ -1,0 +1,18 @@
+id: cso
+name: Chief Security Officer
+tier: 2
+department: security
+role: security
+model: hermes3:70b
+responsibilities:
+  - Operate in security workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

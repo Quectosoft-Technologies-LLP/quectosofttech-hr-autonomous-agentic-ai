@@ -1,0 +1,18 @@
+id: vp_hr
+name: VP Human Resources
+tier: 3
+department: hr
+role: delivery_governance
+model: hermes3:8b
+responsibilities:
+  - Operate in hr workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

@@ -1,0 +1,2 @@
+class ProjectmemoryMcp:
+    name = "projectmemorymcp"

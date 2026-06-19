@@ -1,0 +1,4 @@
+issuer: https://auth.example.com/realms/quectosoft
+client_id: quectosoft-hr-admin
+scopes: [openid, profile, email, groups]
+admin_roles: [platform-admin, hr-admin]

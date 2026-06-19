@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: { name: quectosoft-hr-config }
+data: { ENV: production, LOGLEVEL: INFO }

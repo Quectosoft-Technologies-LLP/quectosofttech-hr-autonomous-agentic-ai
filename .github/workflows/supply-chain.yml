@@ -1,0 +1,21 @@
+name: supply-chain
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  sbom-and-sign:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anchore/sbom-action@v0
+        with:
+          path: .
+          format: spdx-json
+          output-file: sbom.spdx.json
+      - uses: sigstore/cosign-installer@v3
+      - run: echo "cosign sign placeholder for built artifact"

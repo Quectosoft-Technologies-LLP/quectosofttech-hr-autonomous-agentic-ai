@@ -1,0 +1,18 @@
+id: ceo
+name: Chief Executive Officer
+tier: 2
+department: executive
+role: strategy
+model: hermes3:70b
+responsibilities:
+  - Operate in executive workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

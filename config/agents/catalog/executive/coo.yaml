@@ -1,0 +1,18 @@
+id: coo
+name: Chief Operating Officer
+tier: 2
+department: operations
+role: operations
+model: hermes3:70b
+responsibilities:
+  - Operate in operations workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

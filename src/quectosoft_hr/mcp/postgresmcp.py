@@ -1,0 +1,2 @@
+class PostgresMcp:
+    name = "postgresmcp"

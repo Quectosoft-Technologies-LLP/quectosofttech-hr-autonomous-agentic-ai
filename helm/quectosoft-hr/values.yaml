@@ -1,0 +1,6 @@
+image:
+  repository: quectosoft/hr-agentic-ai
+  tag: latest
+ingress:
+  enabled: true
+  host: api.quectosoft.example.com

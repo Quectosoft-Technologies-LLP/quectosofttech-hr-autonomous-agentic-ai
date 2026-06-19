@@ -1,0 +1,18 @@
+id: compliance_agent_card
+name: Compliance Specialist
+tier: 5
+department: hr
+role: compliance
+model: hermes3:8b
+responsibilities:
+  - Operate in hr workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

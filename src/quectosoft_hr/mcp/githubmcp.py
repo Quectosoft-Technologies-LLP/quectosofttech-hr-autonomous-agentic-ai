@@ -1,0 +1,2 @@
+class GithubMcp:
+    name = "githubmcp"

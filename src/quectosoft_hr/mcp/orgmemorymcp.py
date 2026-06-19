@@ -1,0 +1,2 @@
+class OrgmemoryMcp:
+    name = "orgmemorymcp"

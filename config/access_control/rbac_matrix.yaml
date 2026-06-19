@@ -1,0 +1,5 @@
+roles:
+  board: [approve_critical, read_org_memory]
+  csuite: [approve_high, write_org_memory]
+  vp: [approve_medium, write_department_memory]
+  agent: [execute_task, write_project_memory]

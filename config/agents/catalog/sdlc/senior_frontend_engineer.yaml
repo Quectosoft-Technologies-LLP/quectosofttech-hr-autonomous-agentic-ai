@@ -1,0 +1,18 @@
+id: senior_frontend_engineer
+name: Senior Frontend Engineer
+tier: 4
+department: sdlc
+role: engineering
+model: hermes3:8b
+responsibilities:
+  - Operate in sdlc workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

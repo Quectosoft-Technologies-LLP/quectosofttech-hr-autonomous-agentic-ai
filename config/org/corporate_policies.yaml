@@ -1,0 +1,4 @@
+policies:
+  data_protection: strict
+  human_override_required_for_critical: true
+  audit_retention_days: 365

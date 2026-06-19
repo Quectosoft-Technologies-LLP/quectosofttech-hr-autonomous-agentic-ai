@@ -1,0 +1,18 @@
+id: vp_treasury
+name: VP Treasury
+tier: 3
+department: finance
+role: treasury_governance
+model: hermes3:8b
+responsibilities:
+  - Operate in finance workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

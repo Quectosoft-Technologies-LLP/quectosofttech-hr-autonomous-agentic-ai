@@ -1,0 +1,9 @@
+{
+  "title": "Quectosoft HR Platform",
+  "panels": [
+    {"title": "Request Rate", "type": "timeseries"},
+    {"title": "Error Rate", "type": "timeseries"},
+    {"title": "Latency P95", "type": "timeseries"},
+    {"title": "Worker Throughput", "type": "timeseries"}
+  ]
+}

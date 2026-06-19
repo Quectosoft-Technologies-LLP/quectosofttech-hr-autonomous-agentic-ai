@@ -1,0 +1,2 @@
+class DeptmemoryMcp:
+    name = "deptmemorymcp"

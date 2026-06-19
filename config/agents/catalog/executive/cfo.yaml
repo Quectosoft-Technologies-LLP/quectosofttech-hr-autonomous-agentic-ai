@@ -1,0 +1,18 @@
+id: cfo
+name: Chief Financial Officer
+tier: 2
+department: finance
+role: finance
+model: hermes3:70b
+responsibilities:
+  - Operate in finance workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

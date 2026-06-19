@@ -1,0 +1,7 @@
+servers:
+  - browsermcp
+  - githubmcp
+  - filesystemmcp
+  - postgresmcp
+  - confluencemcp
+  - jiramcp

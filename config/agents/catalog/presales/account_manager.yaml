@@ -1,0 +1,18 @@
+id: account_manager
+name: Account Manager
+tier: 4
+department: sales
+role: accounts
+model: hermes3:8b
+responsibilities:
+  - Operate in sales workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

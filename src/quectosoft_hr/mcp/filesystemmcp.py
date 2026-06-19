@@ -1,0 +1,2 @@
+class FilesystemMcp:
+    name = "filesystemmcp"

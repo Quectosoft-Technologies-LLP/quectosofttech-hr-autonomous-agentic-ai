@@ -1,0 +1,2 @@
+class ConfluenceMcp:
+    name = "confluencemcp"

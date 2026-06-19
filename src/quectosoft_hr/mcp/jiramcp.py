@@ -1,0 +1,2 @@
+class JiraMcp:
+    name = "jiramcp"

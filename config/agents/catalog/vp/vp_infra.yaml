@@ -1,0 +1,18 @@
+id: vp_infra
+name: VP Infrastructure
+tier: 3
+department: infrastructure
+role: infra_governance
+model: hermes3:8b
+responsibilities:
+  - Operate in infrastructure workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

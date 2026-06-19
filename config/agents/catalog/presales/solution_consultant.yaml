@@ -1,0 +1,18 @@
+id: solution_consultant
+name: Solution Consultant
+tier: 4
+department: presales
+role: solutioning
+model: hermes3:8b
+responsibilities:
+  - Operate in presales workflows
+  - Produce structured outputs
+tools: [approvalengine, policyenforcer, projectmemorymcp]
+raidconfig:
+  mediumreview: vp
+  highreview: csuite
+  criticalreview: human
+memory:
+  scope: project
+workspace:
+  isolation: team

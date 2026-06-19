@@ -1,0 +1,2 @@
+version: 1
+required: [id, name, tier, department, role, model, responsibilities, tools, raidconfig, memory, workspace]
