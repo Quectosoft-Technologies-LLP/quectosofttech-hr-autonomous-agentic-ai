@@ -1,4 +1,4 @@
-# Quectosoft HR Agentic AI - Phase 3 Enterprise
+# Quectosoft HR Agentic AI Enterprise
 
 [![CI](https://github.com/quectosofttech/quectosoft-hr-agentic-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/quectosofttech/quectosoft-hr-agentic-ai/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/quectosofttech/quectosoft-hr-agentic-ai/actions/workflows/codeql.yml/badge.svg)](https://github.com/quectosofttech/quectosoft-hr-agentic-ai/actions/workflows/codeql.yml)
